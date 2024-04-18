@@ -1,6 +1,7 @@
 version = 1
 
-test_patterns = ["test/**"]
+[[analyzers]]
+name = "ruby"
 
 [[analyzers]]
 name = "test-coverage"
@@ -9,4 +10,4 @@ name = "test-coverage"
 name = "cxx"
 
 [[transformers]]
-name = "clang-format"
+name = "standardrb"
